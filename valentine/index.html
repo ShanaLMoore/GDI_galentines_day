@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>I Love You</title>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+  <link rel="icon" type="image/png" href="images/heart.png" />  
+  <style type="text/css">
+
+    body {
+      background-color: red;
+      background: url("images/love2.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    h1  {
+      font-family: 'Amatic SC', cursive;
+      font-size: 80px; 
+    }
+
+    div {
+      width: 500px;
+      height: 200px;
+      border: dashed;
+      background-color: tan;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -100px 0 0 -250px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .fade {
+      opacity: 0.5;
+    }
+
+    .fade:hover {
+      opacity: 1;
+    }
+
+    .color:hover {
+      background: red;
+    }
+
+    .grow:hover {
+      transform: scale(2);
+    }
+
+    .circle:hover {
+      border-radius: 10%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="fade color grow circle">
+    <h1> I Love You!</h1>
+  </div>
+
+</body>
+</html>
